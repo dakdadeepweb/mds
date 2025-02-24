@@ -1,0 +1,34 @@
+/* Estilo da Navbar */
+.navbar {
+    background-color: #6200ea; /* Cor de fundo roxa */
+    padding: 10px 0; /* Espaçamento vertical */
+    text-align: center; /* Centralizando os itens */
+    position: sticky; /* Fixa a navbar no topo */
+    top: 0; /* Fica no topo da página */
+    width: 100%; /* Ocupa toda a largura da página */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os itens na mesma linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.navbar li {
+    margin: 0 20px; /* Espaçamento entre os itens */
+}
+
+.navbar a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2rem; /* Tamanho da fonte */
+    padding: 8px 16px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Efeito de transição de cor */
+}
+
+.navbar a:hover {
+    background-color: #3700b3; /* Cor de fundo quando passar o mouse */
+}

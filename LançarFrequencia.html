@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançar Frequência</title>
+    <link rel="stylesheet" href="navbar.css"> <!-- Linkando o CSS da NavBar -->
+    <link rel="stylesheet" href="LançarFrequencia.css"> <!-- Linkando o CSS da página -->
+</head>
+<body>
+
+    <!-- 🔹 AQUI ESTÁ A NAVBAR -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="HomeProfessor.html">🏠 Home</a></li>
+            <li><a href="LançarNota.html">📝 Lançar Nota</a></li>
+            <li><a href="Lançarfrequencia.html">📊 Lançar Frequência</a></li>
+            <li><a href="Lançartarefa.html" class="active">📚 Lançar Tarefa</a></li>
+        </ul>
+    </nav>
+
+    <!-- 🔹 CONTEÚDO DA PÁGINA -->
+    <main>
+        <h1>Lançar Frequência</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Aluno</th>
+                    <th>Presente</th>
+                    <th>Faltou</th>
+                </tr>
+            </thead>
+            <tbody id="lista-alunos">
+                <!-- Os alunos serão adicionados aqui via JS -->
+            </tbody>
+        </table>
+
+        <button id="salvar-frequencia">Salvar Chamada</button>
+    </main>
+
+    <script src="LançarFrequencia.js"></script> <!-- Linkando o JS -->
+</body>
+</html>

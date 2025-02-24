@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançar Tarefa</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="LançarTarefa.css">
+</head>
+<body>
+
+    <!-- Navbar do Professor -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="HomeProfessor.html">🏠 Home</a></li>
+            <li><a href="LançarNota.html">📝 Lançar Nota</a></li>
+            <li><a href="LançarFrequencia.html">📊 Lançar Frequência</a></li>
+            <li><a href="LançarTarefa.html" class="active">📚 Lançar Tarefa</a></li>
+        </ul>
+    </nav>
+
+    <!-- Painel de Lançamento de Tarefa -->
+    <div class="container">
+        <h2>📚 Lançar Nova Tarefa</h2>
+        
+        <form id="tarefaForm">
+            <label for="nomeTarefa">Nome da Tarefa:</label>
+            <input type="text" id="nomeTarefa" required>
+
+            <label for="corTarefa">Cor da Tarefa:</label>
+            <input type="color" id="corTarefa">
+
+            <label for="dataEntrega">Data Máxima de Entrega:</label>
+            <input type="date" id="dataEntrega" required>
+
+            <label for="linkTarefa">Link da Tarefa:</label>
+            <input type="url" id="linkTarefa" required>
+
+            <button type="submit">Lançar Tarefa</button>
+        </form>
+    </div>
+
+    <script src="LançarTarefa.js"></script>
+</body>
+</html>
