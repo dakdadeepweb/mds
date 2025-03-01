@@ -10,7 +10,7 @@ const alunos = [
     "coeio0177", "o_ryan.55", "_harizz11", "springtrap4947", "tenosinho_str",
     "lisa038149", "pvd_ozzie.zz_67296", "verdadeirawikipedia", "babyz",
     "mapadeluz", "Pippoholand", "mim1zrsh", "dearladyjupter", "symphonny.z",
-    "brinnbolen", "luckza8", "sonecadom"
+    "brinnbolen", "luckza8", "sonecadom", "ichigo739"
 ];
 
 const listaAlunos = document.getElementById("lista-alunos");
